@@ -2,9 +2,9 @@ name: Test site https://berpress.github.io/online-grocery-store/
 
 on:
   push:
-    branches: [ study ]
+    branches: [ main ]
   pull_request:
-    branches: [ study ]
+    branches: [ main ]
 
 jobs:
   build:
