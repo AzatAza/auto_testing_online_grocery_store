@@ -1,3 +1,4 @@
+[![Test site https://berpress.github.io/online-grocery-store/](https://github.com/AzatAza/online_grocery_store/actions/workflows/grocery_CICD.yml/badge.svg)](https://github.com/AzatAza/online_grocery_store/actions/workflows/grocery_CICD.yml)
 # Online grocery store UI tests
 Selenium/Python/Allure
 
