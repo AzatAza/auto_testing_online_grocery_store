@@ -1,0 +1,8 @@
+2021-12-16 20:10:30 [32mINFO[0m 
+
+2021-12-16 20:10:30 [32mINFO[0m ====== WebDriver manager ======
+2021-12-16 20:10:30 [32mINFO[0m Current google-chrome version is 96.0.4664
+2021-12-16 20:10:30 [32mINFO[0m Get LATEST chromedriver version for 96.0.4664 google-chrome
+2021-12-16 20:10:30 [32mINFO[0m Driver [C:\Users\Азат Аллагулов\.wdm\drivers\chromedriver\win32\96.0.4664.45\chromedriver.exe] found in cache
+2021-12-16 20:10:32 [32mINFO[0m Start app on https://berpress.github.io/online-grocery-store/
+2021-12-16 20:10:33 [32mINFO[0m Add bananas in the cart

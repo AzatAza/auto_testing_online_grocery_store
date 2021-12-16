@@ -1,0 +1,27 @@
+name: Test site https://berpress.github.io/online-grocery-store/
+
+on:
+  push:
+    branches: [ study ]
+  pull_request:
+    branches: [ study ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9.4
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9.4
+#    - name: Setup chrome driver (for Selenium)
+#      uses: nanasess/setup-chromedriver@master
+    - name: Install dependencies
+      run:
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
+        pip install -r requirements.txt
+    - name: Test selenium
+      run: pytest
