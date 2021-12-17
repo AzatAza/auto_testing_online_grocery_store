@@ -1,3 +1,4 @@
+import pytest
 from fixture.constans import Constans
 
 
@@ -12,7 +13,8 @@ class TestMainPage:
         app.open_main_page()
         app.search.search_product(data=product_data)
         assert app.search.get_title_text() == product_data.product
-
+    
+    @pytest.mark.xfail(reason="feature is not ready")
     def test_search_input_with_invalid_data(self, app, product_data):
         """
         Steps:
